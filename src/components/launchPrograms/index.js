@@ -6,10 +6,6 @@ import Filters from "./filters";
 import Launches from "./launches";
 import { withRouter } from "react-router";
 
-
-// "eslint": "^7.7.0",
-    // "eslint-plugin-react": "^7.20.6"
-
 class LaunchPrograms extends React.PureComponent {
 
     constructor(props) {
