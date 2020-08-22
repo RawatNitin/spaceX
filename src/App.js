@@ -1,24 +1,29 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Button from "./components/common/Button";
+import LaunchPrograms from "./components/launchPrograms"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import RouterComponent from "./routing/RouterComponent";
+// TODO: 
+// Server Side Rendering
+// Unit Test Cases
+// Buttons in mobile view
+// URL Change on filter
+// CI Pipeline
+// Code Deployment
+// Build
+// Readme
+// Gzip
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <div className="head">
+        SpaceX Launch Programs
+      </div>
+      <RouterComponent></RouterComponent>
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
     </div>
   );
 }

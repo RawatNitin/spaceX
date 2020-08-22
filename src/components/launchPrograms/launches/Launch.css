@@ -1,0 +1,32 @@
+.launch {
+    background-color: white;
+    margin-top: 2%;
+    border-radius: 4%;
+    padding: 5%;
+}
+
+.mission-img {
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 4%;
+}
+
+.mission-img img {
+    height: 100%; 
+    width: auto;
+}
+.description {}
+.description .name{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.blue {
+    color: midnightblue;
+}
+
+.value {
+    font-size: 1rem;
+    font-weight: 200;
+}
+

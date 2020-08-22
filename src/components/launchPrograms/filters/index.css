@@ -1,0 +1,21 @@
+.menu-section {
+    background-color: white;
+    border-radius: 2%;
+    margin-top: 0.4%;
+    height: fit-content;
+    padding: 10px;
+  }
+  
+  .menu-section .filter{
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  
+  .menu-section .filter-category{
+    border-bottom: 1px solid black;
+    text-align: center;
+  }
+
+  .mb-10{
+    margin-bottom: 10px;
+  }
