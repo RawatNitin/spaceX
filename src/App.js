@@ -22,7 +22,7 @@ function App() {
       <div className="head">
         SpaceX Launch Programs
       </div>
-//        <RouterComponent></RouterComponent>
+       <RouterComponent></RouterComponent>
 
     </div>
   );
