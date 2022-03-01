@@ -22,8 +22,8 @@ function App() {
       <div className="head">
         SpaceX Launch Programs
       </div>
-      {/* <RouterComponent></RouterComponent> */}
-      <img src={logo} className="App-logo" alt="logo" />
+       <RouterComponent></RouterComponent>
+
     </div>
   );
 }
